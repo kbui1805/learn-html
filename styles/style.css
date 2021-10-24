@@ -1,0 +1,12 @@
+h1 {
+    color: green;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+}
