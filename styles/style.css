@@ -1,12 +1,120 @@
-h1 {
-    color: green;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Zen+Antique&display=swap');
+
+
+/* font-family: 'Playfair Display SC', serif;
+font-family: 'Zen Antique', serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #333333;
+    font-family: 'Zen Antique', serif;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    background: teal;
-    padding: 20px;
-    margin: 20px;
-    border: 10px solid black;
+body {
+    background-color: rgb(216, 216, 216);
+    width: 90vw;
+    margin: 0 auto;
 }
+
+.main-container {
+    
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Playfair Display SC', serif;
+}
+
+p {
+    font-size: 0.5rem;
+    
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-strong {
+    font-weight: bold;
+}
+
+p .text-highlight {
+    color: rgb(201, 63, 63);
+}
+
+.news-section {
+    border-bottom: 1px solid black;
+}
+
+.main-header {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: italic;
+}
+
+
+
+.main-header-item {
+    border-right: 1px solid black;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    /* text-align: center; */
+}
+
+.none-border {
+    border: none;
+}
+
+.header-time {
+    width: 15vw;
+}
+
+.header-logo {
+    flex-grow: auto;
+    text-align: center;
+}
+
+.header-details {
+    width: 15vw;
+    
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header-time .time-price {
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.header-details .details-info {
+    text-align: justify;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+}
+
+.header-details .details-serial {
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.7rem;
+    color:rgb(201, 63, 63);
+}
+
+.logo-heading {
+    font-size: 5rem;
+    font-style: normal;
+}
+
+
+
