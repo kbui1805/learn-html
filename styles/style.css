@@ -26,9 +26,19 @@ h1 {
     font-family: 'Playfair Display SC', serif;
 }
 
+h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
 p {
     font-size: 0.5rem;
     
+}
+
+.text-cat {
+    font-family: monospace;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 .text-justify {
@@ -116,5 +126,66 @@ p .text-highlight {
     font-style: normal;
 }
 
+.section-trend {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    justify-items: center;
+}
+
+.trend-item {
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+}
+
+.trend-item .trend-item-cat {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    
+}
+
+.trend-item .trend-item-heading {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.section-spotlight {
+    margin-top: 1em;
+    background-image: url("../images/news/spotlight_img.jpg");
+    background-size: cover;
+    min-height: 65vw;
+}
+
+.section-spotlight .spotlight-container {
+    flex-direction: column;
+    max-width: 60%;
+    padding: 1em;
+    
+}
+
+.spotlight-container .spotlight-item-cat {
+    /* margin-bottom: 1em; */
+}
+
+.spotlight-container .spotlight-item-header {
+    text-transform: capitalize;
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.spotlight-container .spotlight-item-author {
+    font-size: 0.5em;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+.spotlight-container p {
+    font-style: italic;
+    max-width: 45%;
+}
 
 
