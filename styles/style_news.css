@@ -128,7 +128,8 @@ p .text-highlight:hover {
 }
 
 .logo-heading {
-    font-size: 5rem;
+    /* font-size: 5rem; */
+    font-size: 12vw;
     font-style: normal;
 }
 
@@ -199,7 +200,7 @@ p .text-highlight:hover {
     border-top: 1px solid black;
     padding-bottom: 1em;
     padding-top: 0.5em;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .grid-container {
@@ -416,6 +417,15 @@ p .text-highlight:hover {
     padding-top: 1em;
     font-style: italic;
     /* border: 1px solid black; */
+}
+
+.reference-section {
+    margin-bottom: 2em;
+    font-size: 0.5em;
+    text-align: right;
+    font-style: italic;
+    padding: 5px;
+    padding-right: 20px;
 }
 
 
